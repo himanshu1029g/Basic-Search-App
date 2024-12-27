@@ -1,0 +1,155 @@
+
+h1{
+
+    font-size: 45px;
+    text-align: center;
+
+    cursor: context-menu;
+}
+/* 
+#Display{
+    margin-top: 22px;
+    background-color: green;
+    width: 73px;
+    margin-left: -7px;
+} */
+
+#inp{
+    /* background-color: greenyellow; */
+    
+    width:33%;
+    height: 34%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px ;
+    border-style:ridge;
+    border-color:darkgray;
+
+}
+
+#btn, #btn2{
+    
+    width: 11%;
+    height: 34%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px ;
+    border-style:ridge;
+    border-color:darkgray;
+    color: white;
+    background-color: rgb(61, 156, 61);
+    font-size: 18px;
+    cursor: pointer;
+}
+#btn:active {
+    border: 2px solid black;
+    background-color: rgb(32, 85, 32);
+}
+header{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid {
+
+    column-width: 370px;
+
+    column-gap: 15px;
+    
+    
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1441px;
+    
+    margin-left: 12px;
+    margin-right: 12px; */
+}
+.item {
+
+    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 8px 12px 0px black;
+    overflow: hidden;
+    /* margin-top: 33px;
+    height: 349px;
+    gap: 3px; */
+}
+
+.item img  {
+    width: 100%; /* Image takes full width of column */
+    height: 100%;
+
+}
+.item video{
+    width: 100%;
+    height: 100%;
+}
+audio {
+    margin: 17px 17px 4px 56px;
+    width: 281px;
+    height: 62px;
+}
+/* @media (max-width: 395px) {
+    #btn, #btn2 {
+        width: 25%;
+        margin: 5px;
+        padding: 8px;
+    }
+    #inp {
+        width: 141%;
+        height: 50%;
+        margin: -3px;
+        padding: 8px;
+    }
+    }
+     */
+    
+@media  (max-width: 432px) {
+    
+
+    .grid {
+        column-width: 150px;
+        column-gap: 20px;
+    }
+#inp{
+
+    width: 46%;
+        height: 19%;
+        margin: 11px;
+        padding: 8px;
+        margin-left: 0px;
+        font-size: 18px;
+
+/*     
+    width:33%;
+    height: 34%;
+    margin: 15px;
+    padding: 10px; */
+}
+#btn, #btn2{    
+
+    width: 21%;
+    height: 36%;
+    margin: 11px;
+    padding: 5px;
+    margin-right: -8px;
+    font-size: 18px;
+    /* width: 9%;
+    height: 34%;
+    margin: 15px;
+    padding: 10px; */
+    
+}
+audio {
+    margin: 7px -24px -8px 4px;
+    width: 173px;
+    height: 70px;
+}
+} 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image search...basic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  button grid ,ssearch bar -->
+    <div class="container">
+      <h1>Basic Search App</h1>
+      <header>
+        <input id="inp" type="text" placeholder="Enter image/audio/video name" />
+        <button onclick="btn_func()" id="btn">Search</button>
+        <button onclick="reset_func()" id="btn2">Reset</button>
+        <div id="Display" ></div>
+        <!-- Container to display the searched image -->
+      </header>
+
+      <main>
+        <div class="grid">
+          <div class="item"><img src="./photos/avengers.jpeg" alt="avengers" /></div>
+          <div class="item"><img src="./photos/batman.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/me_old.JPG" alt="me_old" /></div>
+          <div class="item"><img src="./photos/black.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/captain.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/cup.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/dish.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/ironman.jpeg" alt="" /></div>
+          <!--  -->
+          <div class="item"><img src="./photos/logo.webp" alt="" /></div>
+          <div class="item"><img src="./photos/shangchi.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/spider.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/spider-mans.jpg" alt="all_spider"></div>
+          <div class="item"><img src="./photos/table.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/download.jpeg" alt="" /></div>
+          <!-- video ... -->
+          <div class="item"><video controls> <source src="./video/video1.mp4">video not playable </video></div>
+          <div class="item"><video controls> <source src="./video/video2.mp4">video not playable </video></div>
+          <div class="item"><video controls> <source src="./video/video3.mp4">video not playable </video></div>
+          <!--  audio  -->
+          <div><audio controls> <source src="./audio/audio1.mp3">audio not working</audio></div>
+          <div><audio controls> <source src="./audio/audio2.mp3">audio not working</audio></div>
+          <div><audio controls> <source src="./audio/audio3.mp3">audio not working</audio></div>
+          <div><audio controls> <source src="./audio/audio4.mp3">audio not working</audio></div>
+          <!-- <div class="item"><audio controls> <source src="./audio/audio1.mp3">audio not working</audio></div>
+          <div class="item"><audio controls> <source src="./audio/audio2.mp3">audio not working</audio></div>
+          <div class="item"><audio controls> <source src="./audio/audio3.mp3">audio not working</audio></div>
+          <div class="item"><audio controls> <source src="./audio/audio4.mp3">audio not working</audio></div> -->
+
+
+          <!-- jsut for try  -->
+          <div class="item">
+            <img src="./photos/avengers.jpeg" alt="avengers" />
+          </div>
+          <div class="item"><img src="./photos/batman.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/me_old.JPG" alt="me_old" /></div>
+          <div class="item"><img src="./photos/black.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/captain.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/cup.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/dish.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/ironman.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/shangchi.jpeg" alt="" /></div>
+          <!--  -->
+          <div class="item"><img src="./photos/logo.webp" alt="" /></div>
+          <div class="item"><img src="./photos/spider.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/table.jpeg" alt="" /></div>
+          <div class="item">
+            <img src="./photos/avengers.jpeg" alt="avengers" />
+            <div class="item"><img src="./photos/me_old.JPG" alt="me_old" /></div>
+          </div>
+          <div class="item"><img src="./photos/batman.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/cup.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/captain.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/table.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/ironman.jpeg" alt="" /></div>
+          <!--  -->
+          <div class="item"><img src="./photos/dish.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/black.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/spider.jpeg" alt="" /></div>
+          <div class="item"><img src="./photos/logo.webp" alt="" /></div>
+          <div class="item"><img src="./photos/shangchi.jpeg" alt="" /></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
